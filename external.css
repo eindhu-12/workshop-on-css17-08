@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20211009/pngtree-bg-abstrack-pink-color-image_910529.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.head1{
+    position: absolute;
+}
+.head2{
+    position: fixed;
+    background-color: lightgray;
+    width: 100%;
+    padding:20px;
+    top: 0;
+}
+.div1{
+    float: inline;
+    display: inline;
+    padding-right: 40px;
+}
+.h11{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: inline;
+    font-weight: 100;
+}
+.div2{
+    float: inline-end;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.div33{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    padding: 2px;
+    box-shadow: 1px 1px 4px lightgray;
+    
+}
+
+.div44{
+    /* position: fixed; */
+    display:block ;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 120px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background:linear-gradient(to right,skyblue,lightpink,lightgreen,lightcoral);
+    box-shadow: 4px 4px 4px lightcoral;
+    
+    
+}
+.p1{
+    text-align: left;
+    padding-left: 20px;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+    padding-right: 30px;
+}
+.div5{
+    background-color: aliceblue;
+    border: 2px solid;
+    border-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;   
+}
+.p4{
+    padding: 10px;
+    text-indent: 25px;
+}
+.img1{
+    border: 2px solid;
+    border-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 1435px;
+    height: 300px;
+    display: block;
+    /* padding: 10px; */
+    object-fit: contain;
+
+}
+.img2{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;   
+    width: 1435px;
+    height: 300px;
+    border: 2px solid;
+    border-color: black;
+    object-fit: fill;
+}
+.img3{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px solid;
+    border-color: black;  
+    width: 1435px;
+    height: 300px;
+    /* object-fit: none; */
+    object-fit: cover;
+}
+footer{
+    background-color: lightgreen;
+    font-size: 30px;
+    text-align:right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 30px;
+    padding: 10px 15px;
+    border: 2px solid;
+
+}
